@@ -1,0 +1,103 @@
+
+
+
+                     responsive notes
+  notes:-
+
+    1.scaling 1 name=viewport
+    2.css3 media tag
+    3.firefox-> setting-> developer-> responsive design mode
+    4.@media screen and (min-width)(max-width)
+    5.setting different size query for lap,mobile,tab etc
+    6.making responsive icons
+  code
+  <body>
+  <input type="checkbox" id="menu-bar"/>
+  <labelfor="menu-bar"></label>
+  <ul class="menu">
+        <li><a href="#">home</a></li>
+        <li><a href="#">product</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+        </ul>
+  </body>
+
+css code:-
+
+label{
+    display:block;
+    height: 50px;
+    background:#;
+    margin:5px 0;
+    width:50px;
+    diplay:none;
+    position:relative;
+}
+menu-btn{
+display;none;
+}
+.menu
+{list-style:none;
+padding:0;
+margin:0;
+background:;
+font-family:arial;
+}
+.menu>li>a{
+text-decoration:none;
+color:;
+padding:10px;
+display;block;
+background-color:tranparent;
+}
+
+.menu>li>a:hover,
+.menu>li>a:focus,
+.menu>li>a:active{
+    background-color:;
+    color:;
+}
+@media screen (min-width:321px)and (max-width:1024px)
+{
+.menu{
+display:none;
+}
+.menu>li{
+display:block;
+}
+label{
+display:block;
+}
+}                    
+2media-btn checked.menu{
+display:block;
+}}
+@media screen and (max-width:320px){
+.menu{
+display:block;
+}
+}
+
+
+
+
+                                                       Java script notes
+    
+    notes:-
+
+    1.
+    2.
+    3.
+    4.
+    5.
+    6.
+    7. 
+    8.
+    9.
+    10.
+    11.
+    12.
+    13.
+    14.
+    15.
